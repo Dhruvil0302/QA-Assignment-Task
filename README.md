@@ -27,3 +27,37 @@ That's it! You have successfully installed Playwright in your project. You can e
 - If you want to run your Playwright script in headed mode, which means you can see the browser UI while the tests are running, you can do the following
     - `npx playwright test --headed`
 ---
+### Test Case 1 : Validate Login
+1. To <b>Validate Login</b> Test Case run the below command in terminal
+    - ``npx playwright test ./tests/validate_login.spec.js --project=chromium --headed``
+2. To run a Playwright script across all browsers, you can use  below command in terminal 
+     - ``npx playwright test ./tests/validate_login.spec.js --headed``
+3. View Test Results:
+     - ``npx playwright show-report``
+
+### Test Case 2 : Product Checkout
+1. To <b>Product Checkout</b> Test Case run the below command in terminal
+    - ``npx playwright test ./tests/product_checkout.spec.js --project=chromium --headed``
+2. To run a Playwright script across all browsers, you can use  below command in terminal 
+     - ``npx playwright test ./tests/product_checkout.spec.js --headed``
+3. View Test Results:
+     - ``npx playwright show-report``
+
+### Test Case 3 : Search Functionality
+1. To <b>Search Functionality</b> Test Case run the below command in terminal
+    - ``npx playwright test ./tests/search_functionality.spec.js --project=chromium --headed``
+2. To run a Playwright script across all browsers, you can use  below command in terminal 
+     - ``npx playwright test ./tests/search_functionality.spec.js --headed``
+3. View Test Results:
+     - ``npx playwright show-report``
+
+### Test Case 4 : Wishlist Functionality
+1. To <b>Wishlist Functionality</b> Test Case run the below command in terminal
+    - ``npx playwright test ./tests/wishlist_functionality.spec.js --project=chromium --headed``
+2. To run a Playwright script across all browsers, you can use  below command in terminal 
+     - ``npx playwright test ./tests/wishlist_functionality.spec.js --headed``
+3. View Test Results:
+     - ``npx playwright show-report``
+---
+## Help Manual 📘
+**Amazon Help manual** : https://docs.google.com/document/d/1SPet-WQnVE2cXd9Axo49ntfmBhWIokUXKj4WhFHNaIY/edit?usp=sharing
