@@ -60,7 +60,7 @@ That's it! You have successfully installed Playwright in your project. You can e
      - ``npx playwright show-report``
 ---
 ## Help Manual 📘
-**Amazon Help manual** : https://docs.google.com/document/d/1SPet-WQnVE2cXd9Axo49ntfmBhWIokUXKj4WhFHNaIY/edit?usp=sharing
+**Amazon Help manual**: https://docs.google.com/document/d/1SPet-WQnVE2cXd9Axo49ntfmBhWIokUXKj4WhFHNaIY/edit?usp=sharing
 
 ---
 ## Manual Testing 
