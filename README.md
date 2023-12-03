@@ -12,7 +12,7 @@
 | Wishlist Functionality | Validate Product Wishlist functionality  |
 
 ---
-##Installation
+## Installation
 1. Open a terminal.
 2. Navigate to your project directory using the `cd` command
 3. Install Playwright using npm:
@@ -20,7 +20,7 @@
 
 That's it! You have successfully installed Playwright in your project. You can explore the Playwright documentation for more advanced features and examples: https://playwright.dev/docs/intro
 
-##How to Run 
+## How to Run 
 - By default tests will be run on all 3 browsers, chromium, firefox and webkit using 3 workers. This can be configured in the playwright.config file. 
 - Tests are run in <b>headless mode</b> meaning no browser will open up when running the tests.
     - `npx playwright test`
