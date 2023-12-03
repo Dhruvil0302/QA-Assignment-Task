@@ -2,14 +2,8 @@ const { test, expect } = require('@playwright/test');
 test('Wishlist Functionality', async ({ page }) => {
   
     await page.goto('https://www.amazon.com/');
-  
-    // Expect a title "to contain" a substring.
     await expect(page).toHaveTitle(/Amazon.com/);
-  
-    // Click the get started link.
     await page.getByRole('link', { name: 'Hello, sign in' }).click();
-  
-    // Expects page to have a heading with the name of Sign in.
     await expect(page.getByRole('heading', { name: 'Sign in' })).toBeVisible();
   
     //Add email id

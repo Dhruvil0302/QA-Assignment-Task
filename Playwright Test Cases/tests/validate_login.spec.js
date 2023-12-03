@@ -4,8 +4,6 @@ const { test, expect } = require('@playwright/test');
 
 test('Validate Login', async ({ page }) => {
   await page.goto('https://www.amazon.com/');
-
-
   await expect(page).toHaveTitle(/Amazon.com/); 
   await page.getByRole('link', { name: 'Hello, sign in' }).click();
   await expect(page.getByRole('heading', { name: '  Sign in' })).toBeVisible();
