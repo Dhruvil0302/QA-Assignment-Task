@@ -24,7 +24,7 @@ That's it! You have successfully installed Playwright in your project. You can e
 - By default tests will be run on all 3 browsers, chromium, firefox and webkit using 3 workers. This can be configured in the playwright.config file. 
 - Tests are run in <b>headless mode</b> meaning no browser will open up when running the tests.
     - `npx playwright test`
-- If you want to run your Playwright script in headed mode, which means you can see the browser UI while the tests are running, you can do the following
+- If you want to run your Playwright script in **headed mode**, which means you can see the browser UI while the tests are running, you can do the following
     - `npx playwright test --headed`
 ---
 ### Test Case 1 : Validate Login
