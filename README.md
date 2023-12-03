@@ -1,4 +1,4 @@
-# QA-Assignment-Task
+# QA-Assignment-Task 📝
 ---
 ## Test Automation with Playwright
 - This repository is dedicated to the automated testing functionalities on Amazon.com using the Playwright framework. 
