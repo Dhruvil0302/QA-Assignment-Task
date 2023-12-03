@@ -61,3 +61,9 @@ That's it! You have successfully installed Playwright in your project. You can e
 ---
 ## Help Manual 📘
 **Amazon Help manual** : https://docs.google.com/document/d/1SPet-WQnVE2cXd9Axo49ntfmBhWIokUXKj4WhFHNaIY/edit?usp=sharing
+
+---
+## Manual Testing 
+**rtPanel Test cases**: https://docs.google.com/spreadsheets/d/1HUwDLhzqC7ah5Kczcta655QG18KT6Bbbx7mC_db2m30/edit?usp=sharing
+
+**rtPanel UI Bug🐛**: https://github.com/Dhruvil0302/QA-Assignment-Task/issues
